@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cl-mini-ui": "^1.0.1",
+    "cross-env": "^7.0.2",
+    "miniprogram-ci": "^1.0.93"
+  },
+  "scripts": {
+    "switch:dev": "node switch.js --dev",
+    "switch:prod": "node switch.js --prod",
+    "switch:jwj": "node switch.js --jwj",
+    "switch:yk": "node switch.js --yk",
+    "switch:yy": "node switch.js --yy",
+    "wxci": "cross-env  node ./wxCI.js"
+  }
+}
